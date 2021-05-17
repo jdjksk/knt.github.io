@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Sans+KR:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Sans+KR:wght@900&family=Nunito+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Noto+Sans+KR:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 1170px;
+}
+
+html, body, head {
+    height: 100%;
+}
+.head {
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -100px;
+}
+.btn {
+    background-image: url(../KANAT/11e7bb7c6097eaee087b96eb33e718ff.jpg);
+    width: 100%;
+    height: 86vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 95px;
+    padding-top: 12%;
+ 
+
+}
+.logo {
+    margin-left: -350px;
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3px;
+}
+.topnav {
+    margin-top: 25px;
+    margin-right: -300px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
+
+}
+.nav-link {
+    text-decoration: none;
+    color: rgb(104, 102, 100);
+   
+}
+.nav-link:hover {
+    border-bottom: 3px solid black;
+    color: black;
+    transition: 0.2s;
+
+}
+.nav-link + .nav-link{
+    margin-left: 15%;
+}
+.text-osn {
+
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 40px;
+    
+    
+}
+.text {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.free {
+    text-align: center;
+    color: rgb(230, 219, 219);
+    margin: 30px 0 30px 0;
+    font-family: 'New Tegomin', serif;
+    font-size: 20px;
+}
+.knop {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.qqq {
+    border: 2px solid white;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+
+.qqq:hover{
+    transition: 0.3s;
+    background-color: rgb(79, 150, 117);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list-2 {
+    background-color: white;
+    width: 100%;
+    height: 84vh;
+}
+.about {
+    width: 50%;
+    height: 150px;
+
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+.ppp {
+    margin-top: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+}
+.aiopfr {
+    transition: 0.3s;
+    width: 23%;
+
+    height: 290px;
+    margin-top: 70px;
+}
+.icons {
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
+
+}
+.h2 {
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.php {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.glav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0px 100px 0px 100px;
+}
+.aiopfr:hover {
+    background-color: rgb(79, 150, 117);
+    transition: 0.3s;
+}
+.qwe {
+    color: black;
+}
+.ic {
+    margin-left: 6px;
+    margin-top: 4px;
+}
+.www {  
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    transition: 0.3s;
+    color: black;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.qwer {
+    color: black;
+}
+.www:hover {
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.list-3 {
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+.sport {
+    color: black;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.zz {
+    background-color: rgb(218, 218, 218);
+    height: 270px;
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 50px;
+    
+}
+.th- {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.ww {
+    background-color: rgb(218, 218, 218);
+    height: 250px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 130px;
+    
+}
+.ph-1 {
+    width: 195px;
+    height: 195px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.p-1 {
+    color: black;
+    font-size: 17px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+.b-1 {
+    color: black;
+
+}
+.buy {
+    margin-top: -55px;
+    margin-left: 115px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+    transition: 0.3s;
+    color: black;
+}
+.buy:hover {
+    transition: 0.3s;
+    background-color: rgb(79, 150, 117);
+}
+.nikeph {
+    width: 100px;
+    height: 60px;
+    margin-top: 150px;
+}
+.nike {
+    display: flex;
+    justify-content: center;
+
+}
+
+.ze {
+    background-color: rgb(218, 218, 218);
+    height: 270px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 50px;
+    
+}
+
